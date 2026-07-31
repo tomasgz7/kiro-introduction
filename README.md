@@ -1,6 +1,6 @@
 # Flappy Kiro 🎮
 
-Un juego arcade de corredor infinito protagonizado por **Ghosty**, el personaje fantasma que guiás a través de un flujo interminable de obstáculos tubulares. Construido usando **Desarrollo Guiado por Especificaciones** en el **Kiro IDE** durante el taller *AWS Mujeres en la Nube Buenos Aires - Kiro Express*.
+Un juego arcade de corredor infinito protagonizado por **Ghosty**, el personaje fantasma que guiás a través de un flujo interminable de obstáculos tubulares. Construido usando **Desarrollo Guiado por Especificaciones** en el **Kiro IDE** durante el taller *AWS Women in Cloud Buenos Aires - Kiro Express*.
 
 ![Flappy Kiro UI](img/example-ui.png)
 
@@ -141,5 +141,5 @@ Este proyecto fue construido usando el flujo de trabajo de **Desarrollo Guiado p
 ## Créditos y Agradecimientos
 
 - **AWS Builder Center** - por proveer el espacio e infraestructura para el taller.
-- **AWS Mujeres en la Nube Buenos Aires** - por organizar el taller *Kiro Express* y reunir a la comunidad.
+- **AWS Women in Cloud Buenos Aires** - por organizar el taller *Kiro Express* y reunir a la comunidad.
 - Construido con ❤️ usando [Kiro IDE](https://kiro.dev).
