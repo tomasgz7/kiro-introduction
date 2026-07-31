@@ -1,0 +1,53 @@
+{
+  "description": "Flappy Kiro — tunable game parameters. All physics values assume a 600px-tall reference canvas. At runtime, scale time-based values by (canvas.height / 600) for gravity/velocity and (canvas.width / 800) for horizontal speeds.",
+  "physics": {
+    "_comment": "Time-based values. Multiply by (canvas.height / 600) at runtime.",
+    "gravity": 800,
+    "gravityUnit": "px/s²",
+    "jumpVelocity": -300,
+    "jumpVelocityUnit": "px/s",
+    "maxFallSpeed": 450,
+    "maxFallSpeedUnit": "px/s",
+    "_scalingNote": "gravity and jumpVelocity scale with canvas.height / referenceHeight"
+  },
+  "walls": {
+    "_comment": "Horizontal values. Multiply by (canvas.width / 800) at runtime.",
+    "speed": 120,
+    "speedUnit": "px/s",
+    "spacing": 350,
+    "spacingUnit": "px",
+    "width": 64,
+    "widthUnit": "px",
+    "_scalingNote": "speed and spacing scale with canvas.width / referenceWidth"
+  },
+  "gap": {
+    "_comment": "Vertical value. Multiply by (canvas.height / 600) at runtime.",
+    "size": 140,
+    "sizeUnit": "px",
+    "marginTop": 72,
+    "marginTopUnit": "px",
+    "marginBottom": 72,
+    "marginBottomUnit": "px",
+    "_scalingNote": "size and margins scale with canvas.height / referenceHeight"
+  },
+  "kiro": {
+    "startXFraction": 0.25,
+    "_startXNote": "Horizontal position as a fraction of canvas.width",
+    "spriteWidth": 32,
+    "spriteWidthUnit": "px (source sprite size)",
+    "spriteHeight": 32,
+    "spriteHeightUnit": "px (source sprite size)",
+    "renderScale": 1.5,
+    "_renderScaleNote": "Multiply sprite dimensions by renderScale for display size",
+    "hitboxRadius": 12,
+    "hitboxRadiusUnit": "px (circular hitbox for collision)"
+  },
+  "scoring": {
+    "localStorageKey": "flappyKiroHighScore"
+  },
+  "reference": {
+    "canvasWidth": 800,
+    "canvasHeight": 600,
+    "_note": "All absolute pixel values above are calibrated to this reference resolution. Scale proportionally at runtime."
+  }
+}
